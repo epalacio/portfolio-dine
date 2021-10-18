@@ -1,7 +1,11 @@
+import Booking from "./pages/Booking";
+import Home from "./pages/Home";
+
 const App = () => {
   return (
     <div className="App">
-      <h1 className='text-3xl'>Hello world!</h1>
+      <Home />
+      <Booking />
     </div>
   );
 }
