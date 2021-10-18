@@ -17,11 +17,16 @@ module.exports = {
         'headerDesktop': '64px',
         'subHeaderMobile': '32px',
         'subHeaderTablet': '40px',
-      }
+      },
+      backgroundImage: {
+        'heroMobileImg': "url('/src/img/heroMobileImg.jpg')" ,
+        'heroTabletImg': "url('/src/img/heroTabletImg.jpg')",
+        'heroDesktopImg': "url('/src/img/heroDesktopImg.jpg')",
+      },
     },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+    variants: {
+      extend: {},
+    },
+    plugins: [],
+  }
 }
